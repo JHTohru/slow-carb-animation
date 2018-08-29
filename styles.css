@@ -1,0 +1,42 @@
+body {
+	height: 100vh;
+	margin: 0;
+	width: 100vw;
+}
+
+main {
+	border: 1px solid #666;
+	height: 80vh;
+	margin: 0 auto;
+	width: 80vw;
+}
+
+body, main {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+div {
+	animation: play 2s steps(49) infinite;
+	background-color: transparent;
+	background-position: 4900% 50%;
+	background-repeat: repeat-x;
+	background-size: 4900% auto;
+}
+
+.balloon {
+	background-image: url("images/balloon-animation-sprites.png");
+	height: 10em;
+	width: 6em;
+}
+
+.oil {
+	background-image: url("images/oil-bottle-sprites.png");
+    height: 6em;
+    width: 11em;
+}
+
+@keyframes play {
+	100% { background-position-x: 0 }
+}
