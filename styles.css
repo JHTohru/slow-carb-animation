@@ -17,12 +17,20 @@ body, main {
 	justify-content: center;
 }
 
-div {
+.balloon, .oil {
 	animation: play 2s steps(49) infinite;
 	background-color: transparent;
 	background-position: 4900% 50%;
 	background-repeat: repeat-x;
 	background-size: 4900% auto;
+}
+
+.snail {
+	animation: play 2s steps(48) infinite;
+	background-color: transparent;
+	background-position: 4800% 50%;
+	background-repeat: repeat-x;
+	background-size: 4800% auto;
 }
 
 .balloon {
@@ -35,6 +43,12 @@ div {
 	background-image: url("images/oil-bottle-sprites.png");
     height: 6em;
     width: 11em;
+}
+
+.snail {
+	background-image: url("images/snail-sprites.png");
+	width: 8em;
+	height: 11em;
 }
 
 @keyframes play {
