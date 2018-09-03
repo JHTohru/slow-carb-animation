@@ -18,7 +18,7 @@ body, main {
 }
 
 .balloon, .oil {
-	animation: play 2s steps(49) infinite;
+	animation: play 3s steps(49) infinite;
 	background-color: transparent;
 	background-position: 4900% 50%;
 	background-repeat: repeat-x;
@@ -26,7 +26,7 @@ body, main {
 }
 
 .snail {
-	animation: play 2s steps(48) infinite;
+	animation: play 3s steps(48) infinite;
 	background-color: transparent;
 	background-position: 4800% 50%;
 	background-repeat: repeat-x;
