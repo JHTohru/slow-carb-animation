@@ -34,19 +34,19 @@ body, main {
 }
 
 .balloon {
-	background-image: url("images/balloon-animation-sprites.png");
+	background-image: url("images/balloon-animation-sprites-min.png");
 	height: 10em;
 	width: 6em;
 }
 
 .oil {
-	background-image: url("images/oil-bottle-sprites.png");
+	background-image: url("images/oil-bottle-sprites-min.png");
     height: 6em;
     width: 11em;
 }
 
 .snail {
-	background-image: url("images/snail-sprites.png");
+	background-image: url("images/snail-sprites-min.png");
 	width: 8em;
 	height: 11em;
 }
