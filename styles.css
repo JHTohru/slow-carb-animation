@@ -58,7 +58,7 @@ body, main {
 }
 
 .handfish {
-	animation: play 3s steps(24) infinite;
+	animation: play 1.5s steps(24) infinite;
 	background-color: transparent;
 	background-position: 2400% 50%;
 	background-repeat: repeat-x;
