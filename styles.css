@@ -52,7 +52,7 @@ body, main {
 }
 
 .handfish {
-	background-image: url("images/hand-fish-sprites.png");
+	background-image: url("images/hand-fish-sprites-min.png");
 	width: 28em;
 	height: 7em;
 }
